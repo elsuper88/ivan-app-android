@@ -1,0 +1,1 @@
+/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/app/build/intermediates/cxx/RelWithDebInfo/144s6m5p/obj/arm64-v8a

@@ -1,0 +1,69 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-RelWithDebInfo-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "com_nativephp_mobile",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "compat::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-compat-RelWithDebInfo-8329911c9404160e0c40.json",
+					"name" : "compat",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "php_wrapper::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-php_wrapper-RelWithDebInfo-5cb49575793affe83846.json",
+					"name" : "php_wrapper",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/app/.cxx/RelWithDebInfo/144s6m5p/arm64-v8a",
+		"source" : "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/app/src/main/cpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

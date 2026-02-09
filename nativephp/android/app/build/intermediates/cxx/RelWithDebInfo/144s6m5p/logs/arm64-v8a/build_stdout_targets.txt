@@ -1,0 +1,3 @@
+ninja: Entering directory `/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/app/.cxx/RelWithDebInfo/144s6m5p/arm64-v8a'
+[1/2] Linking CXX shared library /Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/app/build/intermediates/cxx/RelWithDebInfo/144s6m5p/obj/arm64-v8a/libcompat.so
+[2/2] Linking CXX shared library /Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/app/build/intermediates/cxx/RelWithDebInfo/144s6m5p/obj/arm64-v8a/libphp_wrapper.so

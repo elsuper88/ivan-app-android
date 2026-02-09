@@ -1,0 +1,10 @@
+# ninja log v5
+0	105	1770673122127233321	CMakeFiles/compat.dir/compat/android_compat.cpp.o	31a7120c56c48c3
+0	233	1770673122255057950	CMakeFiles/php_wrapper.dir/PHP.c.o	cd5f32254bfea71b
+0	250	1770673122270987520	CMakeFiles/php_wrapper.dir/php_bridge.c.o	b0b5317b2210e036
+0	252	1770673122274371101	CMakeFiles/php_wrapper.dir/libphp_wrapper.cpp.o	bc46898e2da07089
+106	284	1770673122183496839	/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/app/build/intermediates/cxx/RelWithDebInfo/144s6m5p/obj/arm64-v8a/libcompat.so	e01981b8d576fc62
+1	420	1770673122441866369	CMakeFiles/php_wrapper.dir/bridge_jni.cpp.o	2823e328eb99247
+422	467	1770673122489095725	/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/app/build/intermediates/cxx/RelWithDebInfo/144s6m5p/obj/arm64-v8a/libphp_wrapper.so	fbd6ab1c8e0d7953
+8	776	1770673954908776514	/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/app/build/intermediates/cxx/RelWithDebInfo/144s6m5p/obj/arm64-v8a/libcompat.so	e01981b8d576fc62
+776	829	1770673955104691305	/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/app/build/intermediates/cxx/RelWithDebInfo/144s6m5p/obj/arm64-v8a/libphp_wrapper.so	fbd6ab1c8e0d7953

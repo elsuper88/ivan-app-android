@@ -1,0 +1,624 @@
+[2026-02-09 21:52:06] === NativePHP Android Build Started ===
+[2026-02-09 21:52:06] PHP Version: 8.4.8
+[2026-02-09 21:52:06] OS: Darwin
+[2026-02-09 21:52:06] Working Directory: /Users/raulynpolancoramirez/Desktop/Prueba/nativephp
+[2026-02-09 21:52:06] Build Type: release
+[2026-02-09 21:52:06] Android project path: /Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android
+[2026-02-09 21:52:06] Validating build environment...
+[2026-02-09 21:52:06]   NATIVEPHP_APP_ID: com.example.filamentapp
+[2026-02-09 21:52:06]   NATIVEPHP_APP_VERSION: 1.0.0
+[2026-02-09 21:52:06] Build environment validation passed
+[2026-02-09 21:52:06] --- Preparing Android Build ---
+[2026-02-09 21:52:06] Cleaning Gradle cache...
+[2026-02-09 21:52:06]   Removing: /Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/.gradle
+[2026-02-09 21:52:06]   Removing: /Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/app/build
+[2026-02-09 21:52:06] Gradle cache cleaned
+[2026-02-09 21:52:06] Updating Android configuration...
+[2026-02-09 21:52:06]   App ID: com.example.filamentapp
+[2026-02-09 21:52:06]   Updating ICU configuration...
+[2026-02-09 21:52:06]   Updating version configuration...
+[2026-02-09 21:52:06]     Version: 1.0.0
+[2026-02-09 21:52:06]     Version Code: 3
+[2026-02-09 21:52:06]   Updating app display name: FilamentApp
+[2026-02-09 21:52:06]   Updating permissions...
+[2026-02-09 21:52:06]   Updating orientation configuration...
+[2026-02-09 21:52:06]   Updating deep link configuration...
+[2026-02-09 21:52:06]   Updating Firebase configuration...
+[2026-02-09 21:52:06]   Updating build configuration...
+[2026-02-09 21:52:06]     Minify: disabled
+[2026-02-09 21:52:06]     Shrink Resources: disabled
+[2026-02-09 21:52:06]     Debug Symbols: FULL
+[2026-02-09 21:52:06]   Updating status bar style: auto
+[2026-02-09 21:52:06]   Updating local properties...
+[2026-02-09 21:52:06]     SDK Path: /Users/raulynpolancoramirez/Library/Android/sdk
+[2026-02-09 21:52:06] Android configuration updated
+[2026-02-09 21:52:06] Installing Android icon...
+[2026-02-09 21:52:06]   No icon.png found at public/icon.png, skipping
+[2026-02-09 21:52:06] Installing Android splash screen...
+[2026-02-09 21:52:06]   Light splash (splash.png): not found
+[2026-02-09 21:52:06]   Dark splash (splash-dark.png): not found
+[2026-02-09 21:52:06]   No splash screens found, skipping
+[2026-02-09 21:52:06] Preparing Laravel bundle...
+[2026-02-09 21:52:06]   Source: /Users/raulynpolancoramirez/Desktop/Prueba/nativephp
+[2026-02-09 21:52:06]   Destination: /Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/app/src/main/assets/laravel_bundle.zip
+[2026-02-09 21:52:06]   Temp directory: /Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel
+[2026-02-09 21:52:06]   Removing existing bundle zip...
+[2026-02-09 21:52:06]   Excluded directories: storage/framework/sessions, storage/framework/cache, storage/framework/testing, storage/logs/laravel.log, .git, node_modules, nativephp/ios, nativephp/android
+[2026-02-09 21:52:06]   Copying Laravel source...
+[2026-02-09 21:52:12]   Installing Composer dependencies (--no-dev)...
+[2026-02-09 21:52:23] 
+  [37;44m INFO [39;49m Discovering packages.  
+
+  anourvalar/eloquent-serialize [90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m [32;1mDONE[39;22m
+  blade-ui-kit/blade-heroicons [90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m [32;1mDONE[39;22m
+  blade-ui-kit/blade-icons [90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m [32;1mDONE[39;22m
+  filament/actions [90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m [32;1mDONE[39;22m
+  filament/filament [90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m [32;1mDONE[39;22m
+  filament/forms [90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m [32;1mDONE[39;22m
+  filament/infolists [90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m [32;1mDONE[39;22m
+  filament/notifications [90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m [32;1mDONE[39;22m
+  filament/query-builder [90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m [32;1mDONE[39;22m
+  filament/schemas [90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m [32;1mDONE[39;22m
+  filament/support [90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m [32;1mDONE[39;22m
+  filament/tables [90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m [32;1mDONE[39;22m
+  filament/widgets [90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m [32;1mDONE[39;22m
+  kirschbaum-development/eloquent-power-joins [90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m [32;1mDONE[39;22m
+  laravel/tinker [90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m [32;1mDONE[39;22m
+  livewire/livewire [90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m [32;1mDONE[39;22m
+  nativephp/mobile [90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m [32;1mDONE[39;22m
+  nesbot/carbon [90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m [32;1mDONE[39;22m
+  nunomaduro/termwind [90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m [32;1mDONE[39;22m
+  ryangjchandler/blade-capture-directive [90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m [32;1mDONE[39;22m
+
+  ⇂ public/js/filament/forms/components/checkbox-list.js  
+  ⇂ public/js/filament/forms/components/code-editor.js  
+  ⇂ public/js/filament/forms/components/color-picker.js  
+  ⇂ public/js/filament/forms/components/date-time-picker.js  
+  ⇂ public/js/filament/forms/components/file-upload.js  
+  ⇂ public/js/filament/forms/components/key-value.js  
+  ⇂ public/js/filament/forms/components/markdown-editor.js  
+  ⇂ public/js/filament/forms/components/rich-editor.js  
+  ⇂ public/js/filament/forms/components/select.js  
+  ⇂ public/js/filament/forms/components/slider.js  
+  ⇂ public/js/filament/forms/components/tags-input.js  
+  ⇂ public/js/filament/forms/components/textarea.js  
+  ⇂ public/js/filament/schemas/components/actions.js  
+  ⇂ public/js/filament/schemas/components/tabs.js  
+  ⇂ public/js/filament/schemas/components/wizard.js  
+  ⇂ public/js/filament/tables/components/columns/checkbox.js  
+  ⇂ public/js/filament/tables/components/columns/select.js  
+  ⇂ public/js/filament/tables/components/columns/text-input.js  
+  ⇂ public/js/filament/tables/components/columns/toggle.js  
+  ⇂ public/js/filament/widgets/components/chart.js  
+  ⇂ public/js/filament/widgets/components/stats-overview/stat/chart.js  
+  ⇂ public/fonts/filament/filament/inter/index.css  
+  ⇂ public/fonts/filament/filament/inter/inter-cyrillic-ext-wght-normal-IYF56FF6.woff2  
+  ⇂ public/fonts/filament/filament/inter/inter-cyrillic-wght-normal-JEOLYBOO.woff2  
+  ⇂ public/fonts/filament/filament/inter/inter-greek-ext-wght-normal-EOVOK2B5.woff2  
+  ⇂ public/fonts/filament/filament/inter/inter-greek-wght-normal-IRE366VL.woff2  
+  ⇂ public/fonts/filament/filament/inter/inter-latin-ext-wght-normal-HA22NDSG.woff2  
+  ⇂ public/fonts/filament/filament/inter/inter-latin-wght-normal-NRMW37G5.woff2  
+  ⇂ public/fonts/filament/filament/inter/inter-vietnamese-wght-normal-CE5GGD3W.woff2  
+  ⇂ public/js/filament/actions/actions.js  
+  ⇂ public/js/filament/filament/app.js  
+  ⇂ public/js/filament/filament/echo.js  
+  ⇂ public/js/filament/notifications/notifications.js  
+  ⇂ public/js/filament/schemas/schemas.js  
+  ⇂ public/js/filament/support/support.js  
+  ⇂ public/js/filament/tables/tables.js  
+  ⇂ public/css/filament/filament/app.css  
+
+   INFO  Successfully published assets!  
+
+   INFO  Configuration cache cleared successfully.  
+
+   INFO  Route cache cleared successfully.  
+
+   INFO  Compiled views cleared successfully.  
+
+   INFO  Successfully upgraded!  
+
+
+[2026-02-09 21:52:23] Installing dependencies from lock file
+Verifying lock file contents can be installed on current platform.
+Package operations: 0 installs, 0 updates, 35 removals
+> Illuminate\Foundation\ComposerScripts::prePackageUninstall
+  - Removing theseer/tokenizer (1.3.1)
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/theseer/tokenizer/src/" which does not appear to be a file nor a folder
+> Illuminate\Foundation\ComposerScripts::prePackageUninstall
+  - Removing symfony/yaml (v7.4.1)
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/theseer/tokenizer/src/" which does not appear to be a file nor a folder
+> Illuminate\Foundation\ComposerScripts::prePackageUninstall
+  - Removing staabm/side-effects-detector (1.0.5)
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/staabm/side-effects-detector/lib/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/theseer/tokenizer/src/" which does not appear to be a file nor a folder
+> Illuminate\Foundation\ComposerScripts::prePackageUninstall
+  - Removing sebastian/version (5.0.2)
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/staabm/side-effects-detector/lib/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/theseer/tokenizer/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/version/src/" which does not appear to be a file nor a folder
+> Illuminate\Foundation\ComposerScripts::prePackageUninstall
+  - Removing sebastian/type (5.1.3)
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/staabm/side-effects-detector/lib/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/type/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/theseer/tokenizer/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/version/src/" which does not appear to be a file nor a folder
+> Illuminate\Foundation\ComposerScripts::prePackageUninstall
+  - Removing sebastian/recursion-context (6.0.3)
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/staabm/side-effects-detector/lib/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/type/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/theseer/tokenizer/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/version/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/recursion-context/src/" which does not appear to be a file nor a folder
+> Illuminate\Foundation\ComposerScripts::prePackageUninstall
+  - Removing sebastian/object-reflector (4.0.1)
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/staabm/side-effects-detector/lib/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/type/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/theseer/tokenizer/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/version/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/object-reflector/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/recursion-context/src/" which does not appear to be a file nor a folder
+> Illuminate\Foundation\ComposerScripts::prePackageUninstall
+  - Removing sebastian/object-enumerator (6.0.1)
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/staabm/side-effects-detector/lib/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/type/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/object-enumerator/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/theseer/tokenizer/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/version/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/object-reflector/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/recursion-context/src/" which does not appear to be a file nor a folder
+> Illuminate\Foundation\ComposerScripts::prePackageUninstall
+  - Removing sebastian/lines-of-code (3.0.1)
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/staabm/side-effects-detector/lib/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/type/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/object-enumerator/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/theseer/tokenizer/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/lines-of-code/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/version/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/object-reflector/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/recursion-context/src/" which does not appear to be a file nor a folder
+> Illuminate\Foundation\ComposerScripts::prePackageUninstall
+  - Removing sebastian/global-state (7.0.2)
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/staabm/side-effects-detector/lib/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/type/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/object-enumerator/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/global-state/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/theseer/tokenizer/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/lines-of-code/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/version/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/object-reflector/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/recursion-context/src/" which does not appear to be a file nor a folder
+> Illuminate\Foundation\ComposerScripts::prePackageUninstall
+  - Removing sebastian/exporter (6.3.2)
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/staabm/side-effects-detector/lib/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/type/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/object-enumerator/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/global-state/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/theseer/tokenizer/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/lines-of-code/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/version/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/object-reflector/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/recursion-context/src/" which does not appear to be a file nor a folder
+> Illuminate\Foundation\ComposerScripts::prePackageUninstall
+  - Removing sebastian/environment (7.2.1)
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/staabm/side-effects-detector/lib/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/type/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/object-enumerator/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/global-state/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/theseer/tokenizer/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/lines-of-code/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/version/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/object-reflector/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/recursion-context/src/" which does not appear to be a file nor a folder
+> Illuminate\Foundation\ComposerScripts::prePackageUninstall
+  - Removing sebastian/diff (6.0.2)
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/staabm/side-effects-detector/lib/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/type/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/object-enumerator/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/global-state/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/theseer/tokenizer/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/lines-of-code/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/version/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/object-reflector/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/recursion-context/src/" which does not appear to be a file nor a folder
+> Illuminate\Foundation\ComposerScripts::prePackageUninstall
+  - Removing sebastian/complexity (4.0.1)
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/staabm/side-effects-detector/lib/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/type/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/object-enumerator/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/global-state/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/theseer/tokenizer/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/lines-of-code/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/version/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/object-reflector/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/recursion-context/src/" which does not appear to be a file nor a folder
+> Illuminate\Foundation\ComposerScripts::prePackageUninstall
+  - Removing sebastian/comparator (6.3.3)
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/staabm/side-effects-detector/lib/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/type/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/object-enumerator/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/global-state/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/theseer/tokenizer/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/lines-of-code/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/version/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/object-reflector/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/recursion-context/src/" which does not appear to be a file nor a folder
+> Illuminate\Foundation\ComposerScripts::prePackageUninstall
+  - Removing sebastian/code-unit-reverse-lookup (4.0.1)
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/staabm/side-effects-detector/lib/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/type/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/object-enumerator/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/global-state/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/theseer/tokenizer/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/lines-of-code/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/version/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/object-reflector/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/recursion-context/src/" which does not appear to be a file nor a folder
+> Illuminate\Foundation\ComposerScripts::prePackageUninstall
+  - Removing sebastian/code-unit (3.0.3)
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/staabm/side-effects-detector/lib/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/type/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/object-enumerator/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/global-state/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/theseer/tokenizer/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/lines-of-code/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/version/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/object-reflector/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/recursion-context/src/" which does not appear to be a file nor a folder
+> Illuminate\Foundation\ComposerScripts::prePackageUninstall
+  - Removing sebastian/cli-parser (3.0.2)
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/staabm/side-effects-detector/lib/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/type/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/object-enumerator/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/global-state/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/theseer/tokenizer/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/lines-of-code/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/version/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/object-reflector/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/recursion-context/src/" which does not appear to be a file nor a folder
+> Illuminate\Foundation\ComposerScripts::prePackageUninstall
+  - Removing phpunit/phpunit (11.5.52)
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/staabm/side-effects-detector/lib/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/type/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/object-enumerator/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/global-state/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/theseer/tokenizer/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/lines-of-code/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/version/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/object-reflector/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/recursion-context/src/" which does not appear to be a file nor a folder
+> Illuminate\Foundation\ComposerScripts::prePackageUninstall
+  - Removing phpunit/php-timer (7.0.1)
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/staabm/side-effects-detector/lib/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/type/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/object-enumerator/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/global-state/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/theseer/tokenizer/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/lines-of-code/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/version/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/object-reflector/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/recursion-context/src/" which does not appear to be a file nor a folder
+> Illuminate\Foundation\ComposerScripts::prePackageUninstall
+  - Removing phpunit/php-text-template (4.0.1)
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/staabm/side-effects-detector/lib/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/type/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/object-enumerator/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/global-state/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/theseer/tokenizer/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/lines-of-code/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/version/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/object-reflector/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/recursion-context/src/" which does not appear to be a file nor a folder
+> Illuminate\Foundation\ComposerScripts::prePackageUninstall
+  - Removing phpunit/php-invoker (5.0.1)
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/staabm/side-effects-detector/lib/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/type/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/object-enumerator/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/global-state/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/theseer/tokenizer/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/lines-of-code/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/version/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/object-reflector/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/recursion-context/src/" which does not appear to be a file nor a folder
+> Illuminate\Foundation\ComposerScripts::prePackageUninstall
+  - Removing phpunit/php-file-iterator (5.1.1)
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/staabm/side-effects-detector/lib/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/type/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/object-enumerator/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/global-state/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/theseer/tokenizer/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/lines-of-code/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/version/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/object-reflector/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/recursion-context/src/" which does not appear to be a file nor a folder
+> Illuminate\Foundation\ComposerScripts::prePackageUninstall
+  - Removing phpunit/php-code-coverage (11.0.12)
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/staabm/side-effects-detector/lib/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/type/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/object-enumerator/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/global-state/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/theseer/tokenizer/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/lines-of-code/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/version/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/object-reflector/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/recursion-context/src/" which does not appear to be a file nor a folder
+> Illuminate\Foundation\ComposerScripts::prePackageUninstall
+  - Removing phar-io/version (3.2.1)
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/staabm/side-effects-detector/lib/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/type/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/object-enumerator/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/global-state/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/theseer/tokenizer/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/lines-of-code/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/version/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/object-reflector/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/recursion-context/src/" which does not appear to be a file nor a folder
+> Illuminate\Foundation\ComposerScripts::prePackageUninstall
+  - Removing phar-io/manifest (2.0.4)
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/staabm/side-effects-detector/lib/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/type/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/object-enumerator/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/global-state/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/theseer/tokenizer/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/lines-of-code/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/version/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/object-reflector/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/recursion-context/src/" which does not appear to be a file nor a folder
+> Illuminate\Foundation\ComposerScripts::prePackageUninstall
+  - Removing nunomaduro/collision (v8.8.3)
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/staabm/side-effects-detector/lib/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/type/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/object-enumerator/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/global-state/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/theseer/tokenizer/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/lines-of-code/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/version/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/object-reflector/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/recursion-context/src/" which does not appear to be a file nor a folder
+> Illuminate\Foundation\ComposerScripts::prePackageUninstall
+  - Removing myclabs/deep-copy (1.13.4)
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/staabm/side-effects-detector/lib/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/type/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/object-enumerator/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/global-state/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/theseer/tokenizer/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/lines-of-code/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/version/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/object-reflector/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/recursion-context/src/" which does not appear to be a file nor a folder
+> Illuminate\Foundation\ComposerScripts::prePackageUninstall
+  - Removing mockery/mockery (1.6.12)
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/staabm/side-effects-detector/lib/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/type/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/object-enumerator/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/global-state/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/theseer/tokenizer/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/lines-of-code/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/version/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/object-reflector/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/recursion-context/src/" which does not appear to be a file nor a folder
+> Illuminate\Foundation\ComposerScripts::prePackageUninstall
+  - Removing laravel/sail (v1.52.0)
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/staabm/side-effects-detector/lib/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/type/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/object-enumerator/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/global-state/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/theseer/tokenizer/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/lines-of-code/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/version/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/object-reflector/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/recursion-context/src/" which does not appear to be a file nor a folder
+> Illuminate\Foundation\ComposerScripts::prePackageUninstall
+  - Removing laravel/pint (v1.27.0)
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/staabm/side-effects-detector/lib/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/type/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/object-enumerator/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/global-state/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/theseer/tokenizer/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/lines-of-code/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/version/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/object-reflector/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/recursion-context/src/" which does not appear to be a file nor a folder
+> Illuminate\Foundation\ComposerScripts::prePackageUninstall
+  - Removing laravel/pail (v1.2.5)
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/staabm/side-effects-detector/lib/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/type/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/object-enumerator/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/global-state/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/theseer/tokenizer/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/lines-of-code/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/version/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/object-reflector/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/recursion-context/src/" which does not appear to be a file nor a folder
+> Illuminate\Foundation\ComposerScripts::prePackageUninstall
+  - Removing hamcrest/hamcrest-php (v2.1.1)
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/staabm/side-effects-detector/lib/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/type/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/object-enumerator/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/global-state/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/theseer/tokenizer/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/lines-of-code/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/version/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/object-reflector/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/recursion-context/src/" which does not appear to be a file nor a folder
+> Illuminate\Foundation\ComposerScripts::prePackageUninstall
+  - Removing filp/whoops (2.18.4)
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/staabm/side-effects-detector/lib/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/type/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/object-enumerator/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/global-state/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/theseer/tokenizer/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/lines-of-code/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/version/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/object-reflector/src/" which does not appear to be a file nor a folder
+Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel/vendor/sebastian/recursion-context/src/" which does not appear to be a file nor a folder
+> Illuminate\Foundation\ComposerScripts::prePackageUninstall
+  - Removing fakerphp/faker (v1.24.1)
+  0/25 [>---------------------------]   0%
+ 18/25 [====================>-------]  72%
+ 25/25 [============================] 100%
+Generating optimized autoload files
+> Illuminate\Foundation\ComposerScripts::postAutoloadDump
+> @php artisan package:discover --ansi
+> @php artisan filament:upgrade
+80 packages you are using are looking for funding.
+Use the `composer fund` command to find out more!
+
+[2026-02-09 21:52:23]   Optimizing autoloader...
+[2026-02-09 21:52:25] Generating optimized autoload files (authoritative)
+
+  [37;44m INFO [39;49m Discovering packages.  
+
+  anourvalar/eloquent-serialize [90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m [32;1mDONE[39;22m
+  blade-ui-kit/blade-heroicons [90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m [32;1mDONE[39;22m
+  blade-ui-kit/blade-icons [90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m [32;1mDONE[39;22m
+  filament/actions [90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m [32;1mDONE[39;22m
+  filament/filament [90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m [32;1mDONE[39;22m
+  filament/forms [90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m [32;1mDONE[39;22m
+  filament/infolists [90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m [32;1mDONE[39;22m
+  filament/notifications [90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m [32;1mDONE[39;22m
+  filament/query-builder [90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m [32;1mDONE[39;22m
+  filament/schemas [90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m [32;1mDONE[39;22m
+  filament/support [90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m [32;1mDONE[39;22m
+  filament/tables [90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m [32;1mDONE[39;22m
+  filament/widgets [90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m [32;1mDONE[39;22m
+  kirschbaum-development/eloquent-power-joins [90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m [32;1mDONE[39;22m
+  laravel/tinker [90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m [32;1mDONE[39;22m
+  livewire/livewire [90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m [32;1mDONE[39;22m
+  nativephp/mobile [90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m [32;1mDONE[39;22m
+  nesbot/carbon [90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m [32;1mDONE[39;22m
+  nunomaduro/termwind [90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m [32;1mDONE[39;22m
+  ryangjchandler/blade-capture-directive [90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m [32;1mDONE[39;22m
+
+  ⇂ public/js/filament/forms/components/checkbox-list.js  
+  ⇂ public/js/filament/forms/components/code-editor.js  
+  ⇂ public/js/filament/forms/components/color-picker.js  
+  ⇂ public/js/filament/forms/components/date-time-picker.js  
+  ⇂ public/js/filament/forms/components/file-upload.js  
+  ⇂ public/js/filament/forms/components/key-value.js  
+  ⇂ public/js/filament/forms/components/markdown-editor.js  
+  ⇂ public/js/filament/forms/components/rich-editor.js  
+  ⇂ public/js/filament/forms/components/select.js  
+  ⇂ public/js/filament/forms/components/slider.js  
+  ⇂ public/js/filament/forms/components/tags-input.js  
+  ⇂ public/js/filament/forms/components/textarea.js  
+  ⇂ public/js/filament/schemas/components/actions.js  
+  ⇂ public/js/filament/schemas/components/tabs.js  
+  ⇂ public/js/filament/schemas/components/wizard.js  
+  ⇂ public/js/filament/tables/components/columns/checkbox.js  
+  ⇂ public/js/filament/tables/components/columns/select.js  
+  ⇂ public/js/filament/tables/components/columns/text-input.js  
+  ⇂ public/js/filament/tables/components/columns/toggle.js  
+  ⇂ public/js/filament/widgets/components/chart.js  
+  ⇂ public/js/filament/widgets/components/stats-overview/stat/chart.js  
+  ⇂ public/fonts/filament/filament/inter/index.css  
+  ⇂ public/fonts/filament/filament/inter/inter-cyrillic-ext-wght-normal-IYF56FF6.woff2  
+  ⇂ public/fonts/filament/filament/inter/inter-cyrillic-wght-normal-JEOLYBOO.woff2  
+  ⇂ public/fonts/filament/filament/inter/inter-greek-ext-wght-normal-EOVOK2B5.woff2  
+  ⇂ public/fonts/filament/filament/inter/inter-greek-wght-normal-IRE366VL.woff2  
+  ⇂ public/fonts/filament/filament/inter/inter-latin-ext-wght-normal-HA22NDSG.woff2  
+  ⇂ public/fonts/filament/filament/inter/inter-latin-wght-normal-NRMW37G5.woff2  
+  ⇂ public/fonts/filament/filament/inter/inter-vietnamese-wght-normal-CE5GGD3W.woff2  
+  ⇂ public/js/filament/actions/actions.js  
+  ⇂ public/js/filament/filament/app.js  
+  ⇂ public/js/filament/filament/echo.js  
+  ⇂ public/js/filament/notifications/notifications.js  
+  ⇂ public/js/filament/schemas/schemas.js  
+  ⇂ public/js/filament/support/support.js  
+  ⇂ public/js/filament/tables/tables.js  
+  ⇂ public/css/filament/filament/app.css  
+
+   INFO  Successfully published assets!  
+
+   INFO  Configuration cache cleared successfully.  
+
+   INFO  Route cache cleared successfully.  
+
+   INFO  Compiled views cleared successfully.  
+
+   INFO  Successfully upgraded!  
+
+Generated optimized autoload files (authoritative) containing 6557 classes
+
+[2026-02-09 21:52:25] > Illuminate\Foundation\ComposerScripts::postAutoloadDump
+> @php artisan package:discover --ansi
+> @php artisan filament:upgrade
+
+[2026-02-09 21:52:25]   Writing version file: 1.0.0
+[2026-02-09 21:52:25]   Copying and cleaning .env file...
+[2026-02-09 21:52:25]   Copying artisan.php bootstrap...
+[2026-02-09 21:52:25]   Creating bundle archive...
+[2026-02-09 21:52:30]   Bundle size: 30.58 MB
+[2026-02-09 21:52:30]   Cleaning up temp directory...
+[2026-02-09 21:52:31] --- Android Build Preparation Complete ---
+[2026-02-09 21:52:31] --- Starting Gradle Build ---
+[2026-02-09 21:52:31] Gradle wrapper: ./gradlew
+[2026-02-09 21:52:31] Gradle task: assembleRelease
+[2026-02-09 21:52:31] Verbose mode: disabled
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preReleaseBuild UP-TO-DATE
+> Task :app:configureCMakeRelWithDebInfo[arm64-v8a]
+> Task :app:buildCMakeRelWithDebInfo[arm64-v8a][compat,php_wrapper]
+> Task :app:mergeReleaseJniLibFolders
+> Task :app:buildKotlinToolingMetadata
+> Task :app:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :app:processReleaseNavigationResources
+> Task :app:compileReleaseNavigationResources
+> Task :app:generateReleaseResValues
+> Task :app:mapReleaseSourceSetPaths
+> Task :app:generateReleaseResources
+> Task :app:checkReleaseAarMetadata
+> Task :app:checkReleaseDuplicateClasses
+> Task :app:mergeReleaseNativeLibs
+> Task :app:packageReleaseResources
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :app:extractDeepLinksRelease
+> Task :app:parseReleaseLocalResources
+> Task :app:stripReleaseDebugSymbols
+> Task :app:mergeReleaseResources
+> Task :app:processReleaseMainManifest
+> Task :app:extractReleaseNativeDebugMetadata
+> Task :app:processReleaseManifest
+> Task :app:mergeReleaseNativeDebugMetadata NO-SOURCE
+> Task :app:javaPreCompileRelease
+> Task :app:processReleaseManifestForPackage
+> Task :app:desugarReleaseFileDependencies
+> Task :app:mergeReleaseStartupProfile
+> Task :app:mergeReleaseShaders
+> Task :app:compileReleaseShaders NO-SOURCE
+> Task :app:generateReleaseAssets UP-TO-DATE
+> Task :app:mergeReleaseArtProfile
+> Task :app:mergeReleaseAssets
+> Task :app:extractReleaseVersionControlInfo
+> Task :app:extractProguardFiles
+> Task :app:collectReleaseDependencies
+> Task :app:sdkReleaseDependencyData
+> Task :app:validateSigningRelease
+> Task :app:writeReleaseAppMetadata
+> Task :app:writeReleaseSigningConfigVersions
+> Task :app:processReleaseResources
+> Task :app:optimizeReleaseResources
+> Task :app:compressReleaseAssets
+> Task :app:mergeExtDexRelease
+> Task :app:compileReleaseKotlin
+> Task :app:compileReleaseJavaWithJavac NO-SOURCE
+> Task :app:dexBuilderRelease
+> Task :app:mergeReleaseGlobalSynthetics
+> Task :app:generateReleaseLintVitalReportModel
+> Task :app:processReleaseJavaRes
+> Task :app:mergeReleaseJavaResource
+> Task :app:mergeDexRelease
+> Task :app:compileReleaseArtProfile
+> Task :app:lintVitalAnalyzeRelease
+> Task :app:lintVitalReportRelease
+> Task :app:lintVitalRelease
+> Task :app:packageRelease
+> Task :app:createReleaseApkListingFileRedirect
+> Task :app:assembleRelease
+
+BUILD SUCCESSFUL in 39s
+52 actionable tasks: 52 executed
+[2026-02-09 21:53:11] Gradle build completed successfully
+[2026-02-09 21:53:11] Build output: /Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/app/build/outputs/apk/release/app-release.apk
+[2026-02-09 21:53:11] Output size: 84.3 MB
+[2026-02-09 21:53:11] === NativePHP Android Build Completed ===

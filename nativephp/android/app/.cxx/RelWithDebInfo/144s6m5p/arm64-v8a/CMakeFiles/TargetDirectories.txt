@@ -1,0 +1,4 @@
+/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/app/.cxx/RelWithDebInfo/144s6m5p/arm64-v8a/CMakeFiles/compat.dir
+/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/app/.cxx/RelWithDebInfo/144s6m5p/arm64-v8a/CMakeFiles/php_wrapper.dir
+/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/app/.cxx/RelWithDebInfo/144s6m5p/arm64-v8a/CMakeFiles/edit_cache.dir
+/Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/app/.cxx/RelWithDebInfo/144s6m5p/arm64-v8a/CMakeFiles/rebuild_cache.dir

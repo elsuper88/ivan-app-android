@@ -1,0 +1,5 @@
+/Users/raulynpolancoramirez/Library/Android/sdk/cmake/3.22.1/bin/ninja \
+  -C \
+  /Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/app/.cxx/RelWithDebInfo/144s6m5p/arm64-v8a \
+  compat \
+  php_wrapper
