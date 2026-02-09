@@ -1,52 +1,52 @@
-[2026-02-09 21:52:06] === NativePHP Android Build Started ===
-[2026-02-09 21:52:06] PHP Version: 8.4.8
-[2026-02-09 21:52:06] OS: Darwin
-[2026-02-09 21:52:06] Working Directory: /Users/raulynpolancoramirez/Desktop/Prueba/nativephp
-[2026-02-09 21:52:06] Build Type: release
-[2026-02-09 21:52:06] Android project path: /Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android
-[2026-02-09 21:52:06] Validating build environment...
-[2026-02-09 21:52:06]   NATIVEPHP_APP_ID: com.example.filamentapp
-[2026-02-09 21:52:06]   NATIVEPHP_APP_VERSION: 1.0.0
-[2026-02-09 21:52:06] Build environment validation passed
-[2026-02-09 21:52:06] --- Preparing Android Build ---
-[2026-02-09 21:52:06] Cleaning Gradle cache...
-[2026-02-09 21:52:06]   Removing: /Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/.gradle
-[2026-02-09 21:52:06]   Removing: /Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/app/build
-[2026-02-09 21:52:06] Gradle cache cleaned
-[2026-02-09 21:52:06] Updating Android configuration...
-[2026-02-09 21:52:06]   App ID: com.example.filamentapp
-[2026-02-09 21:52:06]   Updating ICU configuration...
-[2026-02-09 21:52:06]   Updating version configuration...
-[2026-02-09 21:52:06]     Version: 1.0.0
-[2026-02-09 21:52:06]     Version Code: 3
-[2026-02-09 21:52:06]   Updating app display name: FilamentApp
-[2026-02-09 21:52:06]   Updating permissions...
-[2026-02-09 21:52:06]   Updating orientation configuration...
-[2026-02-09 21:52:06]   Updating deep link configuration...
-[2026-02-09 21:52:06]   Updating Firebase configuration...
-[2026-02-09 21:52:06]   Updating build configuration...
-[2026-02-09 21:52:06]     Minify: disabled
-[2026-02-09 21:52:06]     Shrink Resources: disabled
-[2026-02-09 21:52:06]     Debug Symbols: FULL
-[2026-02-09 21:52:06]   Updating status bar style: auto
-[2026-02-09 21:52:06]   Updating local properties...
-[2026-02-09 21:52:06]     SDK Path: /Users/raulynpolancoramirez/Library/Android/sdk
-[2026-02-09 21:52:06] Android configuration updated
-[2026-02-09 21:52:06] Installing Android icon...
-[2026-02-09 21:52:06]   No icon.png found at public/icon.png, skipping
-[2026-02-09 21:52:06] Installing Android splash screen...
-[2026-02-09 21:52:06]   Light splash (splash.png): not found
-[2026-02-09 21:52:06]   Dark splash (splash-dark.png): not found
-[2026-02-09 21:52:06]   No splash screens found, skipping
-[2026-02-09 21:52:06] Preparing Laravel bundle...
-[2026-02-09 21:52:06]   Source: /Users/raulynpolancoramirez/Desktop/Prueba/nativephp
-[2026-02-09 21:52:06]   Destination: /Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/app/src/main/assets/laravel_bundle.zip
-[2026-02-09 21:52:06]   Temp directory: /Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel
-[2026-02-09 21:52:06]   Removing existing bundle zip...
-[2026-02-09 21:52:06]   Excluded directories: storage/framework/sessions, storage/framework/cache, storage/framework/testing, storage/logs/laravel.log, .git, node_modules, nativephp/ios, nativephp/android
-[2026-02-09 21:52:06]   Copying Laravel source...
-[2026-02-09 21:52:12]   Installing Composer dependencies (--no-dev)...
-[2026-02-09 21:52:23] 
+[2026-02-09 22:16:18] === NativePHP Android Build Started ===
+[2026-02-09 22:16:18] PHP Version: 8.4.8
+[2026-02-09 22:16:18] OS: Darwin
+[2026-02-09 22:16:18] Working Directory: /Users/raulynpolancoramirez/Desktop/Prueba/nativephp
+[2026-02-09 22:16:18] Build Type: release
+[2026-02-09 22:16:18] Android project path: /Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android
+[2026-02-09 22:16:18] Validating build environment...
+[2026-02-09 22:16:18]   NATIVEPHP_APP_ID: com.example.filamentapp
+[2026-02-09 22:16:18]   NATIVEPHP_APP_VERSION: 1.0.0
+[2026-02-09 22:16:18] Build environment validation passed
+[2026-02-09 22:16:18] --- Preparing Android Build ---
+[2026-02-09 22:16:18] Cleaning Gradle cache...
+[2026-02-09 22:16:18]   Removing: /Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/.gradle
+[2026-02-09 22:16:18]   Removing: /Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/app/build
+[2026-02-09 22:16:18] Gradle cache cleaned
+[2026-02-09 22:16:18] Updating Android configuration...
+[2026-02-09 22:16:18]   App ID: com.example.filamentapp
+[2026-02-09 22:16:18]   Updating ICU configuration...
+[2026-02-09 22:16:18]   Updating version configuration...
+[2026-02-09 22:16:18]     Version: 1.0.0
+[2026-02-09 22:16:18]     Version Code: 3
+[2026-02-09 22:16:18]   Updating app display name: FilamentApp
+[2026-02-09 22:16:18]   Updating permissions...
+[2026-02-09 22:16:18]   Updating orientation configuration...
+[2026-02-09 22:16:18]   Updating deep link configuration...
+[2026-02-09 22:16:18]   Updating Firebase configuration...
+[2026-02-09 22:16:18]   Updating build configuration...
+[2026-02-09 22:16:18]     Minify: disabled
+[2026-02-09 22:16:18]     Shrink Resources: disabled
+[2026-02-09 22:16:18]     Debug Symbols: FULL
+[2026-02-09 22:16:18]   Updating status bar style: auto
+[2026-02-09 22:16:18]   Updating local properties...
+[2026-02-09 22:16:18]     SDK Path: /Users/raulynpolancoramirez/Library/Android/sdk
+[2026-02-09 22:16:18] Android configuration updated
+[2026-02-09 22:16:18] Installing Android icon...
+[2026-02-09 22:16:18]   No icon.png found at public/icon.png, skipping
+[2026-02-09 22:16:18] Installing Android splash screen...
+[2026-02-09 22:16:18]   Light splash (splash.png): not found
+[2026-02-09 22:16:18]   Dark splash (splash-dark.png): not found
+[2026-02-09 22:16:18]   No splash screens found, skipping
+[2026-02-09 22:16:18] Preparing Laravel bundle...
+[2026-02-09 22:16:18]   Source: /Users/raulynpolancoramirez/Desktop/Prueba/nativephp
+[2026-02-09 22:16:18]   Destination: /Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/app/src/main/assets/laravel_bundle.zip
+[2026-02-09 22:16:18]   Temp directory: /Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/laravel
+[2026-02-09 22:16:18]   Removing existing bundle zip...
+[2026-02-09 22:16:18]   Excluded directories: storage/framework/sessions, storage/framework/cache, storage/framework/testing, storage/logs/laravel.log, .git, node_modules, nativephp/ios, nativephp/android
+[2026-02-09 22:16:18]   Copying Laravel source...
+[2026-02-09 22:16:25]   Installing Composer dependencies (--no-dev)...
+[2026-02-09 22:16:35] 
   [37;44m INFO [39;49m Discovering packages.  
 
   anourvalar/eloquent-serialize [90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m[90m.[39m [32;1mDONE[39;22m
@@ -119,7 +119,7 @@
    INFO  Successfully upgraded!  
 
 
-[2026-02-09 21:52:23] Installing dependencies from lock file
+[2026-02-09 22:16:35] Installing dependencies from lock file
 Verifying lock file contents can be installed on current platform.
 Package operations: 0 installs, 0 updates, 35 removals
 > Illuminate\Foundation\ComposerScripts::prePackageUninstall
@@ -455,7 +455,8 @@ Could not scan for classes inside "/Users/raulynpolancoramirez/Desktop/Prueba/na
 > Illuminate\Foundation\ComposerScripts::prePackageUninstall
   - Removing fakerphp/faker (v1.24.1)
   0/25 [>---------------------------]   0%
- 18/25 [====================>-------]  72%
+ 14/25 [===============>------------]  56%
+ 24/25 [==========================>-]  96%
  25/25 [============================] 100%
 Generating optimized autoload files
 > Illuminate\Foundation\ComposerScripts::postAutoloadDump
@@ -464,8 +465,8 @@ Generating optimized autoload files
 80 packages you are using are looking for funding.
 Use the `composer fund` command to find out more!
 
-[2026-02-09 21:52:23]   Optimizing autoloader...
-[2026-02-09 21:52:25] Generating optimized autoload files (authoritative)
+[2026-02-09 22:16:35]   Optimizing autoloader...
+[2026-02-09 22:16:37] Generating optimized autoload files (authoritative)
 
   [37;44m INFO [39;49m Discovering packages.  
 
@@ -538,23 +539,23 @@ Use the `composer fund` command to find out more!
 
    INFO  Successfully upgraded!  
 
-Generated optimized autoload files (authoritative) containing 6557 classes
+Generated optimized autoload files (authoritative) containing 6561 classes
 
-[2026-02-09 21:52:25] > Illuminate\Foundation\ComposerScripts::postAutoloadDump
+[2026-02-09 22:16:37] > Illuminate\Foundation\ComposerScripts::postAutoloadDump
 > @php artisan package:discover --ansi
 > @php artisan filament:upgrade
 
-[2026-02-09 21:52:25]   Writing version file: 1.0.0
-[2026-02-09 21:52:25]   Copying and cleaning .env file...
-[2026-02-09 21:52:25]   Copying artisan.php bootstrap...
-[2026-02-09 21:52:25]   Creating bundle archive...
-[2026-02-09 21:52:30]   Bundle size: 30.58 MB
-[2026-02-09 21:52:30]   Cleaning up temp directory...
-[2026-02-09 21:52:31] --- Android Build Preparation Complete ---
-[2026-02-09 21:52:31] --- Starting Gradle Build ---
-[2026-02-09 21:52:31] Gradle wrapper: ./gradlew
-[2026-02-09 21:52:31] Gradle task: assembleRelease
-[2026-02-09 21:52:31] Verbose mode: disabled
+[2026-02-09 22:16:37]   Writing version file: 1.0.0
+[2026-02-09 22:16:37]   Copying and cleaning .env file...
+[2026-02-09 22:16:37]   Copying artisan.php bootstrap...
+[2026-02-09 22:16:37]   Creating bundle archive...
+[2026-02-09 22:16:42]   Bundle size: 30.59 MB
+[2026-02-09 22:16:42]   Cleaning up temp directory...
+[2026-02-09 22:16:43] --- Android Build Preparation Complete ---
+[2026-02-09 22:16:43] --- Starting Gradle Build ---
+[2026-02-09 22:16:43] Gradle wrapper: ./gradlew
+[2026-02-09 22:16:43] Gradle task: assembleRelease
+[2026-02-09 22:16:43] Verbose mode: disabled
 > Task :app:preBuild UP-TO-DATE
 > Task :app:preReleaseBuild UP-TO-DATE
 > Task :app:configureCMakeRelWithDebInfo[arm64-v8a]
@@ -566,22 +567,21 @@ Generated optimized autoload files (authoritative) containing 6557 classes
 > Task :app:compileReleaseNavigationResources
 > Task :app:generateReleaseResValues
 > Task :app:mapReleaseSourceSetPaths
-> Task :app:generateReleaseResources
 > Task :app:checkReleaseAarMetadata
+> Task :app:generateReleaseResources
 > Task :app:checkReleaseDuplicateClasses
 > Task :app:mergeReleaseNativeLibs
 > Task :app:packageReleaseResources
 > Task :app:createReleaseCompatibleScreenManifests
 > Task :app:extractDeepLinksRelease
 > Task :app:parseReleaseLocalResources
-> Task :app:stripReleaseDebugSymbols
 > Task :app:mergeReleaseResources
+> Task :app:stripReleaseDebugSymbols
 > Task :app:processReleaseMainManifest
 > Task :app:extractReleaseNativeDebugMetadata
 > Task :app:processReleaseManifest
 > Task :app:mergeReleaseNativeDebugMetadata NO-SOURCE
 > Task :app:javaPreCompileRelease
-> Task :app:processReleaseManifestForPackage
 > Task :app:desugarReleaseFileDependencies
 > Task :app:mergeReleaseStartupProfile
 > Task :app:mergeReleaseShaders
@@ -596,9 +596,10 @@ Generated optimized autoload files (authoritative) containing 6557 classes
 > Task :app:validateSigningRelease
 > Task :app:writeReleaseAppMetadata
 > Task :app:writeReleaseSigningConfigVersions
+> Task :app:processReleaseManifestForPackage
+> Task :app:compressReleaseAssets
 > Task :app:processReleaseResources
 > Task :app:optimizeReleaseResources
-> Task :app:compressReleaseAssets
 > Task :app:mergeExtDexRelease
 > Task :app:compileReleaseKotlin
 > Task :app:compileReleaseJavaWithJavac NO-SOURCE
@@ -616,9 +617,9 @@ Generated optimized autoload files (authoritative) containing 6557 classes
 > Task :app:createReleaseApkListingFileRedirect
 > Task :app:assembleRelease
 
-BUILD SUCCESSFUL in 39s
+BUILD SUCCESSFUL in 32s
 52 actionable tasks: 52 executed
-[2026-02-09 21:53:11] Gradle build completed successfully
-[2026-02-09 21:53:11] Build output: /Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/app/build/outputs/apk/release/app-release.apk
-[2026-02-09 21:53:11] Output size: 84.3 MB
-[2026-02-09 21:53:11] === NativePHP Android Build Completed ===
+[2026-02-09 22:17:17] Gradle build completed successfully
+[2026-02-09 22:17:17] Build output: /Users/raulynpolancoramirez/Desktop/Prueba/nativephp/nativephp/android/app/build/outputs/apk/release/app-release.apk
+[2026-02-09 22:17:17] Output size: 84.31 MB
+[2026-02-09 22:17:17] === NativePHP Android Build Completed ===
