@@ -67,6 +67,10 @@ class AdminPanelProvider extends PanelProvider
                 Authenticate::class,
             ])
             ->renderHook(
+                PanelsRenderHook::HEAD_END,
+                fn (): string => view('scripts.safe-area-insets')->render()
+            )
+            ->renderHook(
                 PanelsRenderHook::HEAD_START,
                 fn (): string => Blade::render('@vite([\'resources/js/app.js\'])')
             )
