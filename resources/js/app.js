@@ -1,9 +1,6 @@
 import './bootstrap';
 
-// Import Mingle React components
-import './Mingles/TodoListReact.jsx';
-import './Mingles/CalendarReact.jsx';
+// Import Mingle React components (ColorPicker, TimePicker, InvoiceItems)
 import './Mingles/ColorPickerReact.jsx';
 import './Mingles/TimePickerReact.jsx';
-import './Mingles/TimeKeeperReact.jsx';
 import './Mingles/InvoiceItemsReact.jsx';

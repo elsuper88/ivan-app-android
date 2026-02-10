@@ -2,9 +2,6 @@
 
 namespace App\Providers\Filament;
 
-use App\Filament\Widgets\CalendarWidget;
-use App\Filament\Widgets\TodoListWidget;
-use App\Livewire\Mingles\TimeKeeperReact;
 use Filament\Http\Middleware\Authenticate;
 use Filament\Http\Middleware\AuthenticateSession;
 use Filament\Http\Middleware\DisableBladeIconComponents;
@@ -35,6 +32,10 @@ class AdminPanelProvider extends PanelProvider
             ->path('admin')
             ->topbar(true)
             ->spa(hasPrefetching: true)
+            ->spaUrlExceptions([
+                '*/admin',
+                '*/admin/',
+            ])
             ->login()
             ->colors([
                 'primary' => Color::Amber,
@@ -47,8 +48,6 @@ class AdminPanelProvider extends PanelProvider
             ])
             ->discoverWidgets(in: app_path('Filament/Widgets'), for: 'App\Filament\Widgets')
             ->widgets([
-                TodoListWidget::class,
-                CalendarWidget::class,
                 AccountWidget::class,
                 FilamentInfoWidget::class,
             ])
@@ -79,10 +78,6 @@ class AdminPanelProvider extends PanelProvider
                 fn (): string => app()->environment('local')
                     ? Blade::render(app(Vite::class)->reactRefresh())
                     : ''
-            )
-            ->renderHook(
-                PanelsRenderHook::GLOBAL_SEARCH_BEFORE,
-                fn (): string => Blade::render('@livewire(\'' . TimeKeeperReact::class . '\')')
             )
             ->renderHook(
                 PanelsRenderHook::SCRIPTS_AFTER,
