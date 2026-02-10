@@ -1,5 +1,17 @@
 # NativePHP + Filament Project Notes
 
+## Regla: Consulta automática de memoria
+
+Antes de preguntar al usuario "¿cómo?" o "¿dónde?" sobre algo que no recuerdes, **SIEMPRE** consulta primero la memoria persistente (claude-mem) usando las herramientas MCP de búsqueda (`mcp__plugin_claude-mem_mcp-search__search`, `timeline`, `get_observations`). Revisa reglas, decisiones y contexto almacenado de sesiones anteriores. Solo si la memoria no contiene la información necesaria, entonces pregunta al usuario.
+
+**Flujo obligatorio:**
+1. Detectar que no tienes contexto sobre algo solicitado.
+2. Buscar en claude-mem con queries relevantes al tema.
+3. Si se encuentra información → usarla directamente sin preguntar.
+4. Si NO se encuentra → entonces preguntar al usuario.
+
+---
+
 ## NativePHP Android: Headers fantasma y REQUEST_METHOD vacío (fix de tres capas)
 
 ### Causa raíz REAL: Headers fantasma vacíos
